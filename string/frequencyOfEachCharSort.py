@@ -9,6 +9,7 @@ def solution(string):
                 count+=1
         index = 0
         for k in alph:
+            
             if(char == k):
                 if([char,count,index] not in emptyArray):
                     emptyArray.append([char,count,index])
